@@ -3,9 +3,38 @@
   Chapter 1
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Rachel White
+  Date: 11/3/2024
+  Filename: styles.css
 */
 
 /* Your CSS goes here */
+#mainContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2 {
+  text-align: center;
+  color: grey;
+}
+
+label,
+p {
+  margin-top: 25px;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
