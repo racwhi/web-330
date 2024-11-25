@@ -3,9 +3,27 @@
   Chapter 2
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Rachel White
+  Date: 11/24/2024
+  Filename: styles.css
 */
 
 /* Add your CSS styles here */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input[type="submit"] {
+  background-color: rgb(168, 231, 168);
+  border-radius: 8px;
+}
