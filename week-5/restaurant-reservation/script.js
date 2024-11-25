@@ -1,4 +1,3 @@
-"use strict";
 /*
   Pragmatic JavaScript
   Chapter 2
@@ -8,6 +7,7 @@
   Date: 11/24/2024
   Filename: script.js
 */
+"use strict";
 
 // Create an in-memory object array for each table in the restaurant
 let tables = [
