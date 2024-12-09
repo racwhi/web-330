@@ -3,9 +3,33 @@
   Chapter 3
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Rachel White
+  Date: 12/8/2024
+  Filename: styles.css
 */
 
 /* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chef-container {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: pink;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: larger;
+}
